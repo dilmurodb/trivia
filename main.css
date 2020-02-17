@@ -1,0 +1,166 @@
+body {
+  background-color: black;
+}
+
+#background-image {
+  background-image: url("https://images.unsplash.com/photo-1570937943292-a574bd5bc722?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+  background-size: cover;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.header-item {
+  width: 110px;
+  height: 40px;
+  background-color: white;
+  opacity: 0.8;
+}
+.home-item {
+  width: 110px;
+  height: 40px;
+  align-content: center;
+  background-color: white;
+  opacity: 0.8;
+}
+.films {
+  margin-top: 5px;
+  margin-left: 22px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+.music {
+  margin-top: 5px;
+  margin-left: 20px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+.geography {
+  margin-top: 7px;
+  margin-left: 4px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+}
+.home-button {
+  margin-top: 7px;
+  margin-left: 20px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+}
+
+.start-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.start-button {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+}
+
+.question-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.next-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.next-button {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+
+.question-item {
+  width: 400px;
+  height: 100px;
+  background-color: white;
+  opacity: 0.6;
+  font-family: "Lemonada", cursive;
+}
+
+.results-container {
+  display: flex;
+  justify-content: center;
+}
+.results-item {
+  height: 40px;
+  width: 320px;
+  font-size: 15px;
+  background-color: white;
+  opacity: 0.6;
+  font-family: "Lemonada", cursive;
+}
+.answer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.answer-item1 {
+  width: 400px;
+  height: 50px;
+  font-size: 15px;
+  background-color: white;
+  margin: 10px;
+  opacity: 0.6;
+  font-family: "Lemonada", cursive;
+}
+.answer-item2 {
+  width: 400px;
+  height: 50px;
+  font-size: 15px;
+  background-color: white;
+  margin: 10px;
+  opacity: 0.6;
+  font-family: "Lemonada", cursive;
+}
+.answer-item3 {
+  width: 400px;
+  height: 50px;
+  font-size: 15px;
+  background-color: white;
+  margin: 10px;
+  opacity: 0.6;
+  font-family: "Lemonada", cursive;
+}
+.answer-item4 {
+  width: 400px;
+  height: 50px;
+  font-size: 15px;
+  background-color: white;
+  margin: 10px;
+  margin-bottom: 40px;
+  opacity: 0.6;
+  font-family: "Lemonada", cursive;
+}
+
+.name-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.my-name {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 50px;
+  color: white;
+}
